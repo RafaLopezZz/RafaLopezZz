@@ -32,8 +32,5 @@ Me interesa el software con **impacto real** (industria/agrotech/ERP/datos).
 - Datos: queries, índices, agregación, rendimiento
 - Cambios seguros: PRs pequeños, documentación útil, testing en flujos críticos
 
-## Busco
-Rol junior/mid inicial en **backend / integraciones / datos ** (España remoto, presencial o híbrido).
-
 📫 LinkedIn: https://www.linkedin.com/in/rafalopezzz
 
