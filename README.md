@@ -33,5 +33,6 @@ Me interesa el software con **impacto real** (industria/agrotech/ERP/datos).
 - Cambios seguros: PRs pequeños, documentación útil, testing en flujos críticos
 
 🌍 Sitio web: https://rafalopezzz.github.io/web-site (https://github.com/RafaLopezZz/web-site)
+
 📫 LinkedIn: https://www.linkedin.com/in/rafalopezzz
 
