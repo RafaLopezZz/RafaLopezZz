@@ -13,9 +13,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Rafael López — Junior/Mid Backend (Java/Spring · PHP/Laravel · SQL)
+# Rafael López — Desarrollador Fullstack (Java/Spring · PHP/Laravel · Bootstrap · Angular · SQL)
 
-Backend orientado a **operación**: soporte, fiabilidad, rendimiento y mejoras incrementales.
+Fullstack orientado a **operación**: soporte, fiabilidad, rendimiento y mejoras incrementales.
 Me interesa el software con **impacto real** (industria/agrotech/ERP/datos).
 
 ## Proyectos destacados
@@ -32,5 +32,6 @@ Me interesa el software con **impacto real** (industria/agrotech/ERP/datos).
 - Datos: queries, índices, agregación, rendimiento
 - Cambios seguros: PRs pequeños, documentación útil, testing en flujos críticos
 
+🌍 Sitio web: https://rafalopezzz.github.io/web-site (https://github.com/RafaLopezZz/web-site)
 📫 LinkedIn: https://www.linkedin.com/in/rafalopezzz
 
