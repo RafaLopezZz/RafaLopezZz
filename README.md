@@ -79,6 +79,8 @@ Proyecto orientado a **IoT agrícola** para monitorización, observabilidad oper
 - Observabilidad por zonas
 - Base preparada para automatización e IA aplicada
 
+---
+
 ### 🌾 [CosechaEnCope](https://github.com/RafaLopezZz/CosechaEnCope)
 Marketplace B2B2C orientado a producto real.
 
