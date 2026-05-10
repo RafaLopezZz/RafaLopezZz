@@ -13,15 +13,15 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Desarrollador **Fullstack** con foco creciente en **Backend Java + Cloud** ☁️, orientado a construir software útil, mantenible y con impacto real en operación.
+# Desarrollador **Fullstack**, orientado a construir software útil, mantenible y con impacto real.
 
 Trabajo con stacks como **Java/Spring Boot, PHP/Laravel, Angular, TypeScript, SQL y Docker**, y me interesa especialmente el software aplicado a **negocio, automatización, datos, IoT y sistemas reales** ⚙️📊🌱
 
 Actualmente estoy consolidando una dirección profesional clara:
 
-- **Base principal:** Backend **Java + Cloud**
+- **Base principal:** Backend **Java/Spring Boot + Cloud**
 - **Experiencia activa:** PHP/Laravel, Angular, SQL, despliegue y soporte
-- **Capa diferencial en construcción:** automatización + IA aplicada
+- **Capa en construcción:** automatización + IA aplicada, Python
 
 ---
 
@@ -108,7 +108,7 @@ Aplicación de escritorio para importación de Excel a múltiples motores de bas
 
 ## 🎯 Intereses profesionales
 
-Me interesa trabajar en productos y sistemas con **utilidad operativa real**, especialmente en entornos como:
+Me interesa trabajar en productos y sistemas con **utilidad real**, especialmente en entornos como:
 
 - Backend y APIs
 - Cloud y despliegue
