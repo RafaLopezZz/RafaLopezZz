@@ -13,119 +13,188 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Desarrollador **Fullstack**, orientado a construir software útil, mantenible y con impacto real.
+# Rafael López
 
-Trabajo con stacks como **Java/Spring Boot, PHP/Laravel, Angular, TypeScript, SQL y Docker**, y me interesa especialmente el software aplicado a **negocio, automatización, datos, IoT y sistemas reales** ⚙️📊🌱
+**Software Developer · Backend · Datos · Sistemas**
 
-Actualmente estoy consolidando una dirección profesional clara:
+Desarrollo software para resolver problemas concretos de negocio y del día a día.
 
-- **Base principal:** Backend **Java/Spring Boot + Cloud**
-- **Experiencia activa:** PHP/Laravel, Angular, SQL, despliegue y soporte
-- **Capa en construcción:** automatización + IA aplicada, Python
+Me interesa especialmente el punto donde **backend, datos, automatización y sistemas** se conectan. Suelo empezar entendiendo el problema, los requisitos y los datos que intervienen antes de decidir cómo implementarlo.
 
----
-
-## 🧩 En qué aporto valor
-
-- Diagnóstico técnico por capas: **frontend / backend / base de datos**
-- Diseño e implementación de funcionalidades backend con foco en **mantenibilidad**
-- Trabajo con datos: **consultas SQL, agregaciones, rendimiento e integridad**
-- Evolución segura de sistemas existentes: **cambios pequeños, trazables y útiles**
-- Mentalidad de operación: priorizo que el software **funcione bien en el mundo real**
+Trabajo profesionalmente con **Java, PHP/Laravel, SQL, automatización y sistemas**, mientras profundizo especialmente en **Java/Spring Boot, arquitectura, datos e IA aplicada**.
 
 ---
 
-## 🧰 Stack habitual
+## 🧩 Cómo trabajo
+
+- Empiezo por el **problema y los requisitos**, no por la tecnología.
+- Investigo soluciones existentes y patrones probados antes de introducir complejidad nueva.
+- Intento separar responsabilidades para que los sistemas sean más fáciles de entender, probar y mantener.
+- Prefiero soluciones sencillas que resuelvan bien el problema frente a arquitecturas innecesariamente complejas.
+- Valido lo que construyo con **tests, revisión manual y criterios observables**.
+- Cuando trabajo con IA, intento mantener una regla clara: **yo decido; el agente ejecuta dentro de unos límites y un contrato verificable**.
+
+---
+
+## 🧰 Stack
 
 ### Backend
+
 - Java
 - Spring Boot
 - PHP
 - Laravel
+- REST APIs
 
 ### Frontend
+
 - Angular
 - TypeScript
 - Bootstrap
 - Blade
 
-### Datos e infra
+### Datos
+
 - PostgreSQL
 - MySQL
 - MariaDB
-- Docker
-- AWS S3
+- SQLite
+- SQL
 
-### En crecimiento
-- Cloud
+### Sistemas y automatización
+
+- Docker
+- PowerShell
+- Bash / Shell
+- Linux / Windows
+- MQTT
+- Node-RED
+
+### En evolución
+
+- Arquitectura de software
 - Python
-- automatización
-- IA aplicada
+- Datos e IA aplicada
 - IoT
+- Desarrollo asistido por agentes
 
 ---
 
 ## 🚧 Proyectos destacados
 
-### 🌱 [Glea Nexo](https://github.com/RafaLopezZz/glea-nexo) *(en construcción)*
-Proyecto orientado a **IoT agrícola** para monitorización, observabilidad operativa y evolución futura hacia analítica e IA aplicada.
+### 🌾 Cosecha en Cope
 
-**Stack:** Mosquitto · Node-RED · Python · Spring Boot · PostgreSQL · Angular · Docker Compose
+Proyecto final de DAM con una arquitectura web que conecta backend, persistencia y cliente frontend.
 
-**Enfoque actual:**
-- Captura y flujo de datos desde dispositivos
-- Backend y persistencia
-- Visualización operativa
-- Observabilidad por zonas
-- Base preparada para automatización e IA aplicada
+**Stack:** Java · Spring Boot · PostgreSQL · Angular · Thymeleaf · Swagger
 
----
+Algunos puntos que mejor representan lo que aprendí construyéndolo:
 
-### 🌾 [CosechaEnCope](https://github.com/RafaLopezZz/CosechaEnCope)
-Marketplace B2B2C orientado a producto real.
-
-**Stack:** Spring Boot · Angular · PostgreSQL · AWS S3
-**Highlights:**
+- API REST y lógica de aplicación
+- Persistencia relacional con JPA/Hibernate
 - Autenticación JWT
-- Documentación con Swagger
+- Cliente Angular
 - Arquitectura híbrida SSR + SPA
-- Tests E2E con Cypress
+- Documentación de API
+
+Es también uno de los proyectos que utilizo para revisar decisiones anteriores y entender qué responsabilidades separaría mejor hoy.
+
+➡️ [Ver repositorio](https://github.com/RafaLopezZz/CosechaEnCope)
 
 ---
 
-### 📥 [ImportadorDB](https://github.com/RafaLopezZz/importador-db)
-Aplicación de escritorio para importación de Excel a múltiples motores de base de datos.
+### 🌱 Glea Nexo
 
-**Stack:** JavaFX · MySQL · PostgreSQL · MariaDB · Firebird
-**Highlights:**
-- Procesamiento por streaming
-- Inserciones batch
-- HikariCP
-- Cifrado AES
-- Generación de informes
+Laboratorio IoT agrícola con el que estudio cómo conectar dispositivos, datos, backend y persistencia dentro de un mismo sistema.
+
+**Stack:** MQTT · Node-RED · Python · Spring Boot · PostgreSQL · Angular · Docker Compose
+
+Actualmente incluye trabajo alrededor de:
+
+- Captura de telemetría
+- Flujo MQTT → Node-RED → backend
+- Persistencia
+- Continuidad local mediante outbox
+- Reintentos y deduplicación
+- Visualización de datos
+
+La evolución futura del proyecto apunta hacia el tratamiento de mayores volúmenes de datos, automatización y analítica aplicada.
+
+➡️ [Ver repositorio](https://github.com/RafaLopezZz/glea-nexo)
 
 ---
 
-## 🎯 Intereses profesionales
+### 📥 ImportadorDB
 
-Me interesa trabajar en productos y sistemas con **utilidad real**, especialmente en entornos como:
+Aplicación de escritorio desarrollada para resolver una necesidad profesional: importar datos desde libros Excel hacia bases de datos utilizadas por sistemas de gestión y LC-Cloud.
 
-- Backend y APIs
-- Cloud y despliegue
-- Automatización de procesos
-- ERP / negocio / operaciones
-- Agrotech / IoT
-- Datos e IA aplicada con sentido práctico
+**Stack:** Java · JavaFX · Maven · MySQL · PostgreSQL · MariaDB · Firebird
+
+El proyecto trabaja con:
+
+- Lectura de libros `.xlsx` y `.xls`
+- Mapping entre columnas y estructuras destino
+- Inserción de datos en distintos motores relacionales
+- Configuración de conexiones
+- Validación y tratamiento de errores
+- Uso en un contexto profesional real
+
+Es un buen ejemplo de cómo intento abordar problemas pequeños pero costosos cuando se repiten manualmente.
+
+➡️ [Ver repositorio](https://github.com/RafaLopezZz/importador-db)
+
+---
+
+## 🤖 IA aplicada al desarrollo
+
+Me interesa la IA como **herramienta de ingeniería**, no como sustituto del criterio técnico.
+
+Estoy experimentando con workflows donde los agentes reciben:
+
+- contexto de proyecto
+- tareas delimitadas
+- routing explícito
+- ciclos SDD
+- validación automatizada
+- trazabilidad
+- controles contra fallbacks silenciosos
+
+La idea es sencilla:
+
+> **Yo decido. El agente ejecuta.**
+
+Cuanto mayor es la autonomía, más importantes considero los límites, la evidencia y la validación.
+
+---
+
+## 🎯 Hacia dónde quiero avanzar
+
+Quiero seguir aumentando profundidad en:
+
+- Backend con Java y Spring Boot
+- Arquitectura de software
+- Datos
+- Automatización
+- Sistemas distribuidos
+- IA aplicada
+
+Sin perder el perfil híbrido que me permite moverme entre varias capas cuando el problema lo necesita.
+
+Me interesa especialmente construir producto e infraestructura en sectores donde el software tenga consecuencias concretas: agricultura, industria, transporte, finanzas, sistemas empresariales y otros entornos donde fiabilidad y datos importan.
 
 ---
 
 ## 🧠 Sobre mí
 
-Vengo de una trayectoria larga en gestión y liderazgo antes de la transición tecnológica, y eso influye mucho en cómo trabajo: intento combinar criterio técnico con visión práctica, prioridades claras y foco en entregar valor real.
+Antes de dedicarme profesionalmente a tecnología trabajé durante muchos años en hostelería y gestión de equipos.
+
+No considero aquella etapa separada de lo que hago ahora. De allí vienen buena parte de mi forma de trabajar: **adaptación, comunicación clara, atención al detalle, responsabilidad y empatía con quien necesita una solución**.
+
+Hoy utilizo otras herramientas, pero el objetivo sigue siendo parecido: entender qué problema hay delante y conseguir que las cosas funcionen.
 
 ---
 
-## 🌐 Enlaces
+## 🌐 Más sobre mi trabajo
 
-- 🌍 Web: [rafalopezzz.github.io/web-site](https://rafalopezzz.github.io/web-site)
-- 💼 LinkedIn: [linkedin.com/in/rafalopezzz](https://www.linkedin.com/in/rafalopezzz/)
+- 🌍 [Portfolio](https://rafalopezzz.github.io/web-site/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/rafalopezzz/)
